@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Digest
-%define	pnam	LineByLine
+%define		pdir	Digest
+%define		pnam	LineByLine
 Summary:	Digest::LineByLine - line-by-line message authentication for a plain text file
 Summary(pl):	Digest::LineByLine - uwierzytelnianie plików tekstowych "wiersz po wierszu"
 Name:		perl-Digest-LineByLine
