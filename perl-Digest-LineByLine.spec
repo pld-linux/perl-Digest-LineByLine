@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Digest::LineByLine
 Summary(zh_CN):	Digest::LineByLine Perl дё©И
 Name:		perl-Digest-LineByLine
 Version:	1.0
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
