@@ -1,27 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Digest
 %define	pnam	LineByLine
-Summary:	Digest::LineByLine Perl module
-Summary(cs):	Modul Digest::LineByLine pro Perl
-Summary(da):	Perlmodul Digest::LineByLine
-Summary(de):	Digest::LineByLine Perl Modul
-Summary(es):	Módulo de Perl Digest::LineByLine
-Summary(fr):	Module Perl Digest::LineByLine
-Summary(it):	Modulo di Perl Digest::LineByLine
-Summary(ja):	Digest::LineByLine Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Digest::LineByLine ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul Digest::LineByLine
-Summary(pl):	Modu³ Perla Digest::LineByLine
-Summary(pt):	Módulo de Perl Digest::LineByLine
-Summary(pt_BR):	Módulo Perl Digest::LineByLine
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Digest::LineByLine
-Summary(sv):	Digest::LineByLine Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Digest::LineByLine
-Summary(zh_CN):	Digest::LineByLine Perl Ä£¿é
+Summary:	Digest::LineByLine - line-by-line message authentication for a plain text file
+Summary(pl):	Digest::LineByLine - uwierzytelnianie plików tekstowych "wiersz po wierszu"
 Name:		perl-Digest-LineByLine
 Version:	1.0
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	b5177f677abadae08cf40cd3510813b4
