@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Digest
-%define		pnam	LineByLine
+%define	pdir	Digest
+%define	pnam	LineByLine
 Summary:	Digest::LineByLine Perl module
 Summary(cs):	Modul Digest::LineByLine pro Perl
 Summary(da):	Perlmodul Digest::LineByLine
@@ -45,18 +45,20 @@ je¶li kto¶ inny bêdzie grzeba³ w pliku, mo¿na to wykryæ.
 %prep
 %setup -q -c
 
+%build
+touch Makefile.PL
+perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Digest::LineByLine")'
+%{__make}
+
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{perl_sitelib}/Digest,%{_mandir}/man3}
 
-install LineByLine.pm $RPM_BUILD_ROOT%{perl_sitelib}/Digest
-
-pod2man --section=3pm LineByLine.pm > $RPM_BUILD_ROOT%{_mandir}/man3/Digest::LineByLine.3pm
+%{__make} install DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitelib}/Digest/*
+%{perl_sitelib}/Digest/*.pm
 %{_mandir}/man3/*
