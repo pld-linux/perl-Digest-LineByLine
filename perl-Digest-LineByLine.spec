@@ -20,13 +20,13 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Digest::LineByLine
 Summary(zh_CN):	Digest::LineByLine Perl Ä£¿é
 Name:		perl-Digest-LineByLine
 Version:	1.0
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	perl-Digest-SHA1
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -47,7 +47,8 @@ je¶li kto¶ inny bêdzie grzeba³ w pliku, mo¿na to wykryæ.
 
 %build
 touch Makefile.PL
-%{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Digest::LineByLine")'
+%{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Digest::LineByLine")' \
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
@@ -60,5 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitelib}/Digest/*.pm
+%{perl_vendorlib}/Digest/*.pm
 %{_mandir}/man3/*
