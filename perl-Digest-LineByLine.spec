@@ -47,7 +47,7 @@ je¶li kto¶ inny bêdzie grzeba³ w pliku, mo¿na to wykryæ.
 
 %build
 touch Makefile.PL
-perl -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Digest::LineByLine")'
+%{__perl} -MExtUtils::MakeMaker -e 'WriteMakefile(NAME=>"Digest::LineByLine")'
 %{__make}
 
 %install
