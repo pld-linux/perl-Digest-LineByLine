@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Digest::LineByLine
 Summary(it):	Modulo di Perl Digest::LineByLine
 Summary(ja):	Digest::LineByLine Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Digest::LineByLine ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Digest::LineByLine
+Summary(nb):	Perlmodul Digest::LineByLine
 Summary(pl):	Modu³ Perla Digest::LineByLine
 Summary(pt):	Módulo de Perl Digest::LineByLine
 Summary(pt_BR):	Módulo Perl Digest::LineByLine
