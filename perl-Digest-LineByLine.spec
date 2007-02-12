@@ -2,7 +2,7 @@
 %define		pdir	Digest
 %define		pnam	LineByLine
 Summary:	Digest::LineByLine - line-by-line message authentication for a plain text file
-Summary(pl):	Digest::LineByLine - uwierzytelnianie plików tekstowych "wiersz po wierszu"
+Summary(pl.UTF-8):   Digest::LineByLine - uwierzytelnianie plikÃ³w tekstowych "wiersz po wierszu"
 Name:		perl-Digest-LineByLine
 Version:	1.0
 Release:	3
@@ -23,11 +23,11 @@ plain-text file. The file can still be manipulated using all the
 text-file tools you know and love, including a text editor. However,
 if someone else tampers with the file, you can detect the tampering.
 
-%description -l pl
-Ten modu³ pozwala na dodawanie kodów uwierzytelniaj±cych do kolejnych
-linii pliku tekstowego. Ten plik mo¿e byæ nadal modyfikowany przy
-u¿yciu wszystkich narzêdzi tekstowych, w³±cznie z edytorem. Mimo to,
-je¶li kto¶ inny bêdzie grzeba³ w pliku, mo¿na to wykryæ.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala na dodawanie kodÃ³w uwierzytelniajÄ…cych do kolejnych
+linii pliku tekstowego. Ten plik moÅ¼e byÄ‡ nadal modyfikowany przy
+uÅ¼yciu wszystkich narzÄ™dzi tekstowych, wÅ‚Ä…cznie z edytorem. Mimo to,
+jeÅ›li ktoÅ› inny bÄ™dzie grzebaÅ‚ w pliku, moÅ¼na to wykryÄ‡.
 
 %prep
 %setup -q -c
