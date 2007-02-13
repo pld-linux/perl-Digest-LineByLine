@@ -2,7 +2,7 @@
 %define		pdir	Digest
 %define		pnam	LineByLine
 Summary:	Digest::LineByLine - line-by-line message authentication for a plain text file
-Summary(pl.UTF-8):   Digest::LineByLine - uwierzytelnianie plików tekstowych "wiersz po wierszu"
+Summary(pl.UTF-8):	Digest::LineByLine - uwierzytelnianie plików tekstowych "wiersz po wierszu"
 Name:		perl-Digest-LineByLine
 Version:	1.0
 Release:	3
