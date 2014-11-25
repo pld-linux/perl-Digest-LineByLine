@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Digest
 %define		pnam	LineByLine
+%include	/usr/lib/rpm/macros.perl
 Summary:	Digest::LineByLine - line-by-line message authentication for a plain text file
 Summary(pl.UTF-8):	Digest::LineByLine - uwierzytelnianie plików tekstowych "wiersz po wierszu"
 Name:		perl-Digest-LineByLine
@@ -11,8 +11,9 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	b5177f677abadae08cf40cd3510813b4
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/Digest-LineByLine/
 BuildRequires:	perl-Digest-SHA1
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
