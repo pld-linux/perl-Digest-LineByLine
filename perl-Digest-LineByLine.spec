@@ -4,7 +4,7 @@ Summary:	Digest::LineByLine - line-by-line message authentication for a plain te
 Summary(pl.UTF-8):	Digest::LineByLine - uwierzytelnianie plików tekstowych "wiersz po wierszu"
 Name:		perl-Digest-LineByLine
 Version:	1.0
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
